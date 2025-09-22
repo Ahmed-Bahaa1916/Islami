@@ -17,8 +17,19 @@ class AppTheme {
         fontWeight: FontWeight.bold,
         color: blackColor,
       ),
+      bodyMedium: GoogleFonts.elMessiri(
+        fontSize: 25,
+        fontWeight: FontWeight.bold,
+        color: blackColor,
+      ),
+      bodySmall: GoogleFonts.elMessiri(
+        fontSize: 18,
+        fontWeight: FontWeight.bold,
+        color: blackColor,
+      ),
     ),
     appBarTheme: const AppBarTheme(
+      iconTheme: IconThemeData(color: Colors.black),
       centerTitle: true,
       color: Colors.transparent,
       elevation: 0,

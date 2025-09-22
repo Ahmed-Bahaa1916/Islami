@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:google_fonts/google_fonts.dart';
 import 'package:islami/screens/ahdes.dart';
 import 'package:islami/screens/quran.dart';
 import 'package:islami/screens/radio.dart';
@@ -72,10 +71,10 @@ class _HomeScreenState extends State<HomeScreen> {
   }
 
   List<Widget> tabs = [
-    QuranTap(),
     RadioTap(),
-    SettingSTap(),
-    AhdesTap(),
     SabhaaTap(),
+    AhdesTap(),
+    QuranTap(),
+    SettingSTap(),
   ];
 }

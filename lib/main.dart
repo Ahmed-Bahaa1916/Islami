@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:islami/screens/quran_details.dart';
 import 'package:islami/splash_screen.dart';
 import 'package:islami/them_data.dart';
 
@@ -17,7 +18,10 @@ class IslamiApp extends StatelessWidget {
     return MaterialApp(
       theme: AppTheme.lightTheme,
       initialRoute: SplashScreen.routeName,
-      routes: {SplashScreen.routeName: (context) => SplashScreen()},
+      routes: {
+        SplashScreen.routeName: (context) => SplashScreen(),
+        QuranDetails.routeName: (context) => QuranDetails(),
+      },
       debugShowCheckedModeBanner: false,
     );
   }
